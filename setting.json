@@ -20,7 +20,7 @@
   ],
   "costom-element-remove":[
     {
-      "target":"www.a;;recipes.com",
+      "target":"www.allrecipes.com",
       "element-remove-selector":[
         ".js-dismissable-hero",
         ".lazy-loading"
