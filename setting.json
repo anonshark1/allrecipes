@@ -1,8 +1,8 @@
 {
-  "name-web":"STACKOVERFLOW MASKODING",
-  "author":"MASKODING",
+  "name-web":"All Recipes",
+  "author":"admin",
   "remove-comment-html":true,
-  "target":"https://stackoverflow.com",
+  "target":"https://www.allrecipes.com/",
   "name-folder-sitemap":"sitemap",
   "element-remove":[
     "script",
@@ -20,20 +20,20 @@
   ],
   "costom-element-remove":[
     {
-      "target":"stackoverflow.com",
+      "target":"www.a;;recipes.com",
       "element-remove-selector":[
         ".js-dismissable-hero",
         ".lazy-loading"
       ],
       "replace-string":[
         {
-          "target":"https://stackoverflow.com",
+          "target":"https://www.allrecipes.com/",
           "replace":"${nameWeb}"
         }
       ]
     },
     {
-      "target":"m.tribunnews.com",
+      "target":"https://www.allrecipes.com/",
       "element-remove-selector":[
         ".baca",
         ".op-interactive"
